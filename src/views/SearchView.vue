@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from "vue";
+//EXAMPLE
 
 const searchValue = ref("");
 const resultsLength = ref(-1);
