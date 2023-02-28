@@ -17,7 +17,7 @@ async function getCountryInfo(code) {
     } catch (error) {
         resultsLength.value = 0;
         countryInfo.value = {};
-        console.error(error);
+        
     }
 }
 // @input="searchCountry"
